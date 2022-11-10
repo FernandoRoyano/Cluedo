@@ -4,9 +4,54 @@
 
 const suspectsArray = [
   {
+    firstName: "Taylor",
+    lastName: "Jobs",
+    occupation: "Entrepeneur",
+    age: 45,
+    description: "",
+    image: "",
+    color: "",
+  },
+  {
+    firstName: "Mark",
+    lastName: "wahlberg",
+    occupation: "Actor",
+    age: 51,
+    description: "",
+    image: "",
+    color: "",
+  },
+  {
+    firstName: "Dwayne",
+    lastName: "Johnson",
+    occupation: "bodyBuilder",
+    age: 51,
+    description: "",
+    image: "",
+    color: "",
+  },
+  {
     firstName: "Jacob",
     lastName: "Cook",
-    occupation: "Entrepeneur",
+    occupation: "wallHolding",
+    age: 45,
+    description: "",
+    image: "",
+    color: "",
+  },
+  {
+    firstName: "Tim",
+    lastName: "Cook",
+    occupation: "CEO Apple",
+    age: 61,
+    description: "",
+    image: "",
+    color: "",
+  },
+  {
+    firstName: "Steve",
+    lastName: "Wozniak",
+    occupation: "engineer",
     age: 45,
     description: "",
     image: "",
@@ -17,7 +62,7 @@ const suspectsArray = [
 // // Rooms Array
 
 const rooms = [
-  {
+  {∫
     livinRoom: "",
     Kitchen: "",
     bedroom1: "",
