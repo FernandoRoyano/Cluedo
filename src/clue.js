@@ -1,3 +1,58 @@
+/*Iteración 1: crear las tarjetas
+Cluedo tiene tres tipos de cartas diferentes : sospechosos , habitaciones y armas .
+
+Vamos a crear un array para cada tipo de tarjeta . Estas matrices deben llamarse suspectsArray, weaponsArray, roomsArray. Cada matriz contendrá objetos , donde cada objeto representa una carta.
+
+Toda la información que necesita sobre sospechosos , habitaciones y armas se puede encontrar en el DATA.mdarchivo.
+
+Sugerencia : copie estos datos en el clue.jsarchivo y modele en objetos anidados dentro de sus matrices de tarjetas. Esta es una gran oportunidad para que experimente con los accesos directos de IDE, la selección de varias líneas, buscar y reemplazar, y otras funciones excelentes que ofrece VS Code.
+
+
+sospechosos
+Los seis posibles sospechosos en Clue tienen nombre , apellido , ocupación , edad , descripción , imagen y color .
+
+Para completar esta iteración, debe tener una matriz similar a la siguiente:
+
+const suspectsArray = [
+  {
+    firstName: 'Jacob',
+    lastName: 'Green',
+    occupation: 'Entrepreneur'
+    // ...
+  }
+  // ...
+];
+
+armas
+Hay un total de nueve armas . Cada uno de ellos tiene un nombre y peso diferente .
+
+
+Habitaciones
+El tablero de juego representa los planos de la mansión y cuenta con quince habitaciones diferentes . Cada habitación solo tendrá un nombre .
+
+
+Iteración 2: Crear el misterio
+Al comienzo del juego, los jugadores barajan cada una de las pilas de cartas para crear una combinación de sospechoso , arma y habitación . Este será el misterio a resolver.
+
+
+Selector aleatorio
+Declare una función llamada selectRandompara seleccionar aleatoriamente un elemento de una pila de cartas. La función debe esperar un arraycomo argumento y debe devolver un elemento aleatorio de la matriz.
+
+
+Crea el misterio
+Declare una función named pickMysteryque no tome argumentos y devuelva un objeto con tres propiedades: sospechoso , arma y habitación , cada una con un valor de una carta de ese tipo específico. Puede obtener una carta aleatoria de cada tipo llamando selectRandomen cada pila de cartas.
+
+
+Iteración 3: Revelar el misterio
+Por fin, estamos listos para revelar el misterio.
+
+Declare una función named revealMysteryque reciba un sobre object (con la forma del objeto devuelto por pickMystery) como único argumento y devuelva un mensaje de revelación en el siguiente formato:
+
+¡<FIRST NAME> <LAST NAME> mató al Sr. Boddy usando el <ARMA> en la <HABITACIÓN>!
+
+
+*/
+
 // // ITERATION 1
 
 // // Suspects Array
